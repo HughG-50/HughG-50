@@ -1,0 +1,51 @@
+Colour Scheme 1:
+1D232F
+343A42
+4C5873
+89B3B1              OR  DDBBA2  OR  929C8A
+E7E6D2 - F1F5D7         EFEBCE      E0E2D3
+
+Colour Scheme 2 (More colour/crayony):
+E5744B - EDC074     OR  E5424A  OR  B6033
+E5E0C6
+9BAF75                  B4B1AB      AAC4B0
+3E797E
+1E2125
+
+Homepage
+    https://clementineoldfield.com/
+
+    Elements
+    -navbar
+    -name - title
+    -some kind of visual element
+    -text - full stack developer
+
+
+About
+    https://clementineoldfield.com/about
+    https://www.pinterest.com.au/pin/738308932645905947/
+    https://www.pinterest.com.au/pin/356206651779997012/
+    https://alexleybourne.dev/
+
+    Elements
+    -navbar with homepage link on left
+    -title - About Me
+    -text - intro blurb as to who I am and what I am interested in/what I'm doing - "dev in training etc"
+    -resume - link to pdf
+    -skills - logos/icons of technologies I know
+    -other interests - list other relevant things
+
+
+Projects
+    https://www.pinterest.com.au/pin/647322146421190011/
+
+Blog
+    *Should just link to my publication
+    Guide to embedding Medium publication
+    https://medium.com/retainable/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+
+
+Contact
+
+    Elements
