@@ -41,7 +41,7 @@ Projects
     https://www.pinterest.com.au/pin/647322146421190011/
 
 Blog
-    *Should just link to my publication
+    *Should just link to my publication - if formatting is off
     Guide to embedding Medium publication
     https://medium.com/retainable/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
 
@@ -49,3 +49,10 @@ Blog
 Contact
 
     Elements
+    -Twitter, linkedin, github icons + links
+
+--------------
+Icons used:
+https://icons8.com/icons/set/twitter-logo
+https://icons8.com/icons/set/github-logo
+https://icons8.com/icons/set/linkedin-logo

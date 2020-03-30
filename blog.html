@@ -6,17 +6,36 @@
     <title>Blog</title>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">logo</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="about.html" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="projects.html" class="nav-links">Projects</a>
+            </li>
+            <li>
+                <!-- target="_blank" opens link in new tab -->
+                <a href="blog.html" class="nav-links">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Code from Medium to embed Medium posts -->
     <div id="retainable-rss-embed" 
-    data-rss="https://medium.com/feed/retainable,
-    https://medium.com/feed/vue-mastery"
+    data-rss="https://medium.com/feed/hugh-greethead"
     data-maxcols="3" 
     data-layout="grid" 
     data-poststyle="inline" 
     data-readmore="Read the rest" 
     data-buttonclass="btn btn-primary" 
     data-offset="-100"></div>
+
 </body>
 <footer>
+    <!-- Vue.js script to embed Medium posts to website -->
     <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 </footer>
 </html>
