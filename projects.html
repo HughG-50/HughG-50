@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <title>Projects</title>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <a href="index.html" class="logo">logo</a>
+        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+            <i class="fas fa-bars"></i>
+        </label> 
+        <a href="index.html" class="logo">Home</a>
+        <input type="checkbox" id="chkToggle"></input>
         <ul class="main-nav" id="js-menu">
             <li>
                 <a href="about.html" class="nav-links">About</a>
@@ -25,12 +33,12 @@
 
     <!-- Projects Page Title -->
     <section> 
-        <h1>Projects</h1>
+        <h1 class="title">Projects</h1>
     </section>
 
     <!-- Individual projects-->
     <section> 
-        <h5>Stock Market Portfolio Tracker</h5>
+        <h5 class="portfolio-item-heading">Stock Market Portfolio Tracker</h5>
         <a href="https://github.com/HughG-50/sp500_stock_tracker" class="portfolio-item">
             <img src="./img/stock-market-2.png" alt="Stock market image linking to portfolio tracker app">
         </a>

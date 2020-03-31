@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <title>About</title>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <a href="index.html" class="logo">logo</a>
+        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+            <i class="fas fa-bars"></i>
+        </label> 
+        <a href="index.html" class="logo">Home</a>
+        <input type="checkbox" id="chkToggle"></input>
         <ul class="main-nav" id="js-menu">
             <li>
                 <a href="about.html" class="nav-links">About</a>
@@ -25,7 +33,7 @@
 
     <!-- About Page Title -->
     <section> 
-        <h1>About Me</h1>
+        <h1 class="title">About Me</h1>
     </section>
 
     <!-- Basic description blurb -->
@@ -61,7 +69,7 @@
 
     <!-- Skills title -->
     <section>
-        <h3>Skills</h3>
+        <h3 class="sub-title">Skills</h3>
     </section>
 
     <!-- Skills button shaped -->

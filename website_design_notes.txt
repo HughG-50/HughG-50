@@ -5,13 +5,6 @@ Colour Scheme 1:
 89B3B1              OR  DDBBA2  OR  929C8A
 E7E6D2 - F1F5D7         EFEBCE      E0E2D3
 
-Colour Scheme 2 (More colour/crayony):
-E5744B - EDC074     OR  E5424A  OR  B6033
-E5E0C6
-9BAF75                  B4B1AB      AAC4B0
-3E797E
-1E2125
-
 Homepage
     https://clementineoldfield.com/
 

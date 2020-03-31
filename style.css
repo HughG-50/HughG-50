@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+    }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E7E6D2;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+/* Title styling */
+.main-title-section {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.main-title-box {
+    padding: 5px;
+}
+
+.main-title-box h1 {
+    font-size: 65px;
+    text-align: left;
+}
+
+.title {
+    font-size: 60px;
+    padding: 5px;
+}
+
+.sub-title-section {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.sub-title-box {
+    padding-top: 20px;
+    padding-right: 110px;
+}
+
+.sub-title-box h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+/* Homepage social link styling */
+.social-links-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.twitter-logo-box {
+    border: 1px solid black;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    background-image: url("/icons/twitter-96.png");
+}
+
+.github-logo-box {
+    border: 1px solid black;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    background-image: url("/icons/github-96.png");
+}
+
+.linkedin-logo-box {
+    border: 1px solid black;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    background-image: url("/icons/linkedin-2-96.png");
+}
+
+/* Nav bar styling */
+.navbar {
+    font-size: 18px;
+    background-color: #E7E6D2;
+    border: 1px solid #E7E6D2;
+    padding-bottom: 10px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links, .logo {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
+}
+
+.logo:hover,
+.nav-links:hover,
+.fa-bars:hover {
+        color: rgba(0, 0, 0, 1);
+}
+
+#chkToggle {
+    display: none;
+}
+  
+#chkToggle:checked + ul.main-nav {
+    display: block;
+}
+
+/* Modifies navbar for desktop to be horizontal */
+@media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+  
+    #chkToggle:checked + ul.main-nav {
+        display: flex;
+    }
+  
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+  
+    .main-nav li {
+        margin: 0;
+    }
+  
+    .nav-links {
+        margin-left: 40px;
+    }
+  
+    .logo {
+        margin-top: 0;
+    }
+  
+    .navbar-toggle {
+        display: none;
+    }
+  
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(0, 0, 0, 1);
+    }
+}
