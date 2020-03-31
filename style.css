@@ -56,7 +56,42 @@ body {
     justify-content: center;
 }
 
+.resume-link a:visited {
+    color: green;color: green;
+}
+
+.resume-link a:hover {
+    color: pink;
+}
+
+
+.resume-link a:hove {
+    color: green;
+}
+
 /* Resume download button */
+.resume-button-section {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.resume-button-box {
+    /* background-color: #1D232F; */
+    /* background-color: #4C5873; */
+    /* background-color: #89B3B1; */
+    color: white;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: solid 1px #4C5873;
+
+}
+
+/* Why is this not working? */
+.resume-button-box:active {
+    color: white;
+}
 
 /* Homepage main text styling */
 .main-title-section {
