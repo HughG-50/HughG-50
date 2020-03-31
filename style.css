@@ -9,11 +9,56 @@ html {
 }
 
 body {
-    background-color: #E7E6D2; /*rgb(231,230,210)*/
+    background-color: #E7E6D2; 
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
-/* Title styling */
+/* Title text syling */
+.title-section {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.title-box {
+    font-size: 30px;
+    position: relative;
+    right: 70px;
+}
+
+/* Intro and Body text styling - e.g. About page body text*/
+.intro-text-section {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-text-box {
+    max-width: 400px;
+}
+
+.body-text-section {
+    display: flex;
+    justify-content: center;
+}
+
+.body-text-box {
+    max-width: 400px;
+    /* Is it a bad idea to do this? Only affects it when its small which we can account for by making site dynamic */
+    position: relative; 
+    left: 30px;
+
+}
+
+/* Profile picture styling */
+.profile-picture-section {
+    display: flex;
+    justify-content: center;
+}
+
+/* Resume download button */
+
+/* Homepage main text styling */
 .main-title-section {
     display: flex;
     justify-content: center;
@@ -27,11 +72,6 @@ body {
 .main-title-box h1 {
     font-size: 65px;
     text-align: left;
-}
-
-.title {
-    font-size: 60px;
-    padding: 5px;
 }
 
 .sub-title-section {
@@ -50,11 +90,12 @@ body {
     text-align: left;
 }
 
+
 /* Homepage social link styling */
 .social-links-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 250px;
+    margin-top: 220px;
 }
 
 .social-logo-box {
