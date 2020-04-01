@@ -228,6 +228,10 @@ body {
     justify-content: center;
 }
 
+.portfolio-box {
+    max-width: 310px;
+}
+
 .portfolio-item-heading {
     font-size: 20px;
     padding-bottom: 5px;
@@ -236,6 +240,11 @@ body {
 .portfolio-box img {
     border-radius: 10px;
     box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    margin-bottom: 8px;
+}
+
+.portfolio-box p {
+    font-size: 15px;
 }
 
 .portfolio-box img:hover {
