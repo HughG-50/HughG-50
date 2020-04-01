@@ -13,6 +13,15 @@ body {
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
+h1 {
+    /* 20% darker than background but also more translucent*/
+    text-shadow: 2px 2px 2px rgba(181, 179, 160, 0.5)
+}
+
+h3 {
+    text-shadow: 1px 1px 3px rgba(181, 179, 160, 0.3)
+}
+
 /* Title text syling */
 .title-section {
     display: flex;
@@ -69,12 +78,13 @@ body {
 	border-radius: 15px;
 	border:1px solid #5A6C6A;
 	cursor: pointer;
-	color: rgb(255, 255, 255, 0.915);
+	color: rgb(255, 255, 255, 0.9);
 	font-size:17px;
 	padding:12px 32px;
     text-decoration:none;
     /* Play with settings here */
-	text-shadow:0px 2px 0px #5A6C6A;
+    text-shadow:0px 2px 0px #5A6C6A;
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.75);
 }
 
 /* Fix background color to be slightly darker than normal */
@@ -225,11 +235,12 @@ body {
 /* Projects page styling */
 .portfolio-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .portfolio-box {
     max-width: 310px;
+    padding-bottom: 15px;
 }
 
 .portfolio-item-heading {
@@ -254,8 +265,65 @@ body {
 }
 
 .portfolio-box img:active {
-    position:relative;
+    position: relative;
 	top: 2px;
+}
+
+/* Placeholder styling */
+.placeholder-button {
+	background-color: rgb(255, 255, 255, 0.7);
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size:40px;
+    padding:60px 120px;
+    text-shadow:0px 1px 0px grey;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    margin-bottom: 8px;
+}
+
+.placeholder-button:hover {
+	transform: scale(1.01);
+    transition: 0.1s;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+    color: #89B3B1;
+}
+.placeholder-button:active {
+	position: relative;
+	top: 2px;
+}
+
+/* Blog page styling */
+.col-sm-4.rtb-col {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: #F5F3DF;
+}
+
+.post-date {
+    display: none;
+}
+
+.post-image {
+    border-radius: 10px;
+}
+
+.author.mt-2 {
+    display: none;
+}
+
+.btn.btn-primary {
+    display: none;
+}
+
+.post-title {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-title:hover {
+    color: #89B3B1;
 }
 
 /* Homepage social link styling */
