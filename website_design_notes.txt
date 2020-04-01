@@ -49,3 +49,10 @@ Icons used:
 https://icons8.com/icons/set/twitter-logo
 https://icons8.com/icons/set/github-logo
 https://icons8.com/icons/set/linkedin-logo
+
+--------------
+TIP - to stop default underline and colouring put this at the top of the document
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }

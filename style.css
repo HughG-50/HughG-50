@@ -128,8 +128,19 @@ body {
     right: 60px;
 }
 
-/* Skills - small pill buttons section */
+#other-skills-sub-title {
+    font-size: 22px;
+    position: relative;
+    right: 105px;
+}
 
+#education-sub-title {
+    font-size: 22px;
+    position: relative;
+    right: 112px;
+}
+
+/* Skills - small pill buttons section */
 .technical-skills-section {
     display: flex;
     flex-direction: column;
@@ -152,14 +163,11 @@ body {
     padding-right: 10px;
     padding-top: 3px;
     padding-bottom: 3px;
-    /* border: 1px solid black; */
     border-radius: 10px;
 }
 
-/* Could find a better colour for this */
 .skills li:hover {
     background-color: #89B3B1;
-    /* background-color: #80e0db;  */
     transition: 0.25s;
 }
 
@@ -171,11 +179,48 @@ body {
     right: 130px;
 }
 
-.skill.js-stack {
-    padding-left: 8px;
+.skills.hardware {
+    left: 4px;
 }
 
+.skills.financial-tech {
+    right: 10px;
+}
 
+.skills.non-technical {
+    right: 45px;
+}
+
+.education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+}
+
+.education {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.education li {
+    position: relative;
+    left: 112px;
+    padding: 3px;
+}
+
+.education a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.education a:hover {
+    color: #89B3B1;
+}
 
 /* Homepage social link styling */
 .social-links-section {
@@ -193,7 +238,7 @@ body {
 
 .social-logo-box:hover {
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-    transform: scale(1.01);
+    transform: scale(1.025);
     transition: 0.25s;
 }
 
