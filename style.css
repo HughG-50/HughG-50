@@ -61,33 +61,32 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .resume-button {
-	background-color: #5A6C6A;
+    background-color: #677977;
 	border-radius: 15px;
 	border:1px solid #5A6C6A;
 	cursor: pointer;
-	color: rgb(255, 255, 255,0.85);
+	color: rgb(255, 255, 255, 0.915);
 	font-size:17px;
-	padding:12px 25px;
+	padding:12px 32px;
     text-decoration:none;
     /* Play with settings here */
-	/* text-shadow:0px 1px 0px #2f6627; */
+	text-shadow:0px 2px 0px #5A6C6A;
 }
 
 /* Fix background color to be slightly darker than normal */
 .resume-button:hover {
-	background-color:#5cbf2a;
+	background-color:#5A6C6A;
 }
 
 /* Use this kind of effect for the homepage - simulates button press type of thing */
-/*  
 .resume-button:active {
 	position:relative;
 	top:1px;
 }
-*/
 
 /* Homepage main text styling */
 .main-title-section {
@@ -121,6 +120,62 @@ body {
     text-align: left;
 }
 
+/* About Page Skills sub-title additional styling */
+#skills-sub-title {
+    font-size: 22px;
+    margin-top: 15px;
+    position: relative;
+    right: 60px;
+}
+
+/* Skills - small pill buttons section */
+
+.technical-skills-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+}
+
+.skills {
+    list-style: none;
+    position: relative;
+    right: 63px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skills li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+
+/* Could find a better colour for this */
+.skills li:hover {
+    background-color: #89B3B1;
+    /* background-color: #80e0db;  */
+    transition: 0.25s;
+}
+
+.skills.ruby-stack {
+    right: 89px;
+}
+
+.skills.js-stack {
+    right: 130px;
+}
+
+.skill.js-stack {
+    padding-left: 8px;
+}
+
+
 
 /* Homepage social link styling */
 .social-links-section {
@@ -138,10 +193,14 @@ body {
 
 .social-logo-box:hover {
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-    transform: scale(1.03);
+    transform: scale(1.01);
     transition: 0.25s;
 }
 
+.social-logo-box:active {
+	position:relative;
+	top: 2px;
+}
 
 /* Nav bar styling */
 .navbar {
