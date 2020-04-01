@@ -222,6 +222,33 @@ body {
     color: #89B3B1;
 }
 
+/* Projects page styling */
+.portfolio-section {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-item-heading {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.portfolio-box img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.portfolio-box img:hover {
+    transform: scale(1.01);
+    transition: 0.1s;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.portfolio-box img:active {
+    position:relative;
+	top: 2px;
+}
+
 /* Homepage social link styling */
 .social-links-section {
     display: flex;
