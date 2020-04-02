@@ -1,4 +1,4 @@
-# HughG-50 - Portfolio Website
+# Hugh Greethead - Portfolio Website
 Portfolio website: https://hughgreethead.dev
 
 Github repository: https://github.com/HughG-50/HughG-50
