@@ -55,25 +55,27 @@ SRI ensures that the files linking to your website html document have not change
 
 ## Sitemap
 
-{TO ADD IN}
+![Sitemap](docs/portfolio-site-map.png)
 
 ## Screenshots
 
 ### Homepage
 
-{TO ADD IN}
+![Homepage](docs/home-page.png)
 
 ### About 
 
-{TO ADD IN}
+![About-1](docs/about-page-1.png)
+
+![About-2](docs/about-page-2.png)
 
 ### Projects 
 
-{TO ADD IN}
+![Projects](docs/project-page.png)
 
 ### Blog 
 
-{TO ADD IN}
+![Blog](docs/blog-page.png)
 
 ## Target Audience
 
@@ -94,16 +96,33 @@ The target audience is three different groups of people:
 
 ### Homepage
 
-{TO ADD IN}
+**Desktop**
+![Homepage-wireframe](docs/wireframe-homepage.png)
+
+**Mobile**
+![Homepage-wireframe](docs/wireframe-homepage-mobile.png)
 
 ### About 
 
-{TO ADD IN}
+**Desktop**
+![About-wireframe](docs/wireframe-about.png)
+
+**Mobile**
+![About-wireframe-mobile](docs/wireframe-about-mobile.png)
 
 ### Projects 
 
-{TO ADD IN}
+**Desktop**
+![Projects-wireframe](docs/wireframe-projects.png)
+
+**Mobile**
+![Projects-wireframe-mobile](docs/wireframe-projects-mobile.png)
 
 ### Blog 
 
-{TO ADD IN}
+**Desktop**
+![Blog-wireframe](docs/wireframe-blog.png)
+
+**Mobile**
+![Blog-wireframe-mobile](docs/wireframe-blog-mobile.png)
+
