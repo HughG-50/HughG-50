@@ -217,7 +217,7 @@ h3 {
 
 .education li {
     position: relative;
-    left: 112px;
+    right: 10px;
     padding: 3px;
 }
 
@@ -404,6 +404,16 @@ h3 {
   
 #chkToggle:checked + ul.main-nav {
     display: block;
+}
+
+/* Adding more responsiveness to styling of projects page - switches to single column display*/
+@media screen and (max-width: 960px) {
+    .portfolio-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /* Modifies navbar for desktop to be horizontal */
