@@ -46,8 +46,8 @@ When the user clicks on the link the page displays the embedded blog. In future 
 
 There are multiple versions of this website saved on Github in different branches.
 * 'master' branch with the base version that is currently deployed
-* 'alt-font' branch which changes the base font to {TO DO}
-* 'alt-color' branch which changes the main background-color to an alternate shade {TO DO}
+* 'alt-font' branch which changes the base font from 'Roboto' to 'Merriweather'
+* 'alt-color' branch which changes the main background-color to an alternate shade
 
 ### Subresource integrity (SRI)
 
