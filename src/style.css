@@ -254,10 +254,10 @@ h3 {
 }
 
 
-.portfolio-box img:active {
+/* .portfolio-box img:active {
     position: relative;
     top: 2px;
-}
+} */
 
 /* Placeholder styling */
 .placeholder-button {
@@ -287,11 +287,11 @@ h3 {
 .view-project-button-section {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
 }
 
-.view-project-button {
+.view-github-button {
     background-color: #242A2E;
     border-radius: 15px;
     border: 1px solid #242A2E;
@@ -304,8 +304,28 @@ h3 {
     height: 45px;
     text-align: center;
     text-decoration: none;
-    text-shadow: 0px 2px 0px #5A6C6A;
     box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.view-project-button {
+    background-color: #2DA54E;
+    border-radius: 15px;
+    border: 1px solid #2DA54E;
+    cursor: pointer;
+    color: rgb(255, 255, 255, 0.9);
+    font-size: 17px;
+    padding: 12px 32px;
+
+    width: 308px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.view-project-button:active {
+    position: relative;
+    top: 2px;
 }
 
 /* Homepage social link styling */
