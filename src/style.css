@@ -1,258 +1,260 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #E7E6D2;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  background-color: #e7e6d2;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 h1 {
-    /* 20% darker than background but also more translucent*/
-    text-shadow: 2px 2px 2px rgba(181, 179, 160, 0.5)
+  /* 20% darker than background but also more translucent*/
+  text-shadow: 2px 2px 2px rgba(181, 179, 160, 0.5);
 }
 
 h3 {
-    text-shadow: 1px 1px 3px rgba(181, 179, 160, 0.3)
+  text-shadow: 1px 1px 3px rgba(181, 179, 160, 0.3);
 }
 
 /* Title text syling */
 .title-section {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
 .title-box {
-    font-size: 30px;
-    position: relative;
-    right: 70px;
+  font-size: 30px;
+  position: relative;
+  right: 70px;
 }
 
 /* Intro and Body text styling - e.g. About page body text*/
 .intro-text-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .intro-text-box {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .body-text-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .body-text-box {
-    max-width: 400px;
-    /* Is it a bad idea to do this? Only affects it when its small which we can account for by making site dynamic */
-    position: relative;
-    left: 30px;
-
+  max-width: 400px;
+  /* Is it a bad idea to do this? Only affects it when its small which we can account for by making site dynamic */
+  position: relative;
+  left: 30px;
 }
 
 /* Profile picture styling */
 .profile-picture-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Resume download button */
 .resume-button-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 .resume-button {
-    background-color: #677977;
-    border-radius: 15px;
-    border: 1px solid #5A6C6A;
-    cursor: pointer;
-    color: rgb(255, 255, 255, 0.9);
-    font-size: 17px;
-    padding: 12px 32px;
-    text-decoration: none;
-    /* Play with settings here */
-    text-shadow: 0px 2px 0px #5A6C6A;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  background-color: #677977;
+  border-radius: 15px;
+  border: 1px solid #5a6c6a;
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 17px;
+  padding: 12px 32px;
+  text-decoration: none;
+  /* Play with settings here */
+  text-shadow: 0px 2px 0px #5a6c6a;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* Fix background color to be slightly darker than normal */
 .resume-button:hover {
-    background-color: #5A6C6A;
+  background-color: #5a6c6a;
 }
 
 /* Use this kind of effect for the homepage - simulates button press type of thing */
 .resume-button:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
 /* Homepage main text styling */
 .main-title-section {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 
 .main-title-box {
-    padding: 5px;
+  padding: 5px;
 }
 
 .main-title-box h1 {
-    font-size: 65px;
-    text-align: left;
+  font-size: 65px;
+  text-align: left;
 }
 
 .sub-title-section {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 
 .sub-title-box {
-    padding-top: 20px;
-    padding-right: 110px;
+  padding-top: 20px;
+  padding-right: 110px;
 }
 
 .sub-title-box h3 {
-    font-size: 30px;
-    text-align: left;
+  font-size: 30px;
+  text-align: left;
 }
 
 /* About Page Skills sub-title additional styling */
 #skills-sub-title {
-    font-size: 22px;
-    margin-top: 15px;
-    position: relative;
-    right: 60px;
+  font-size: 22px;
+  margin-top: 15px;
+  position: relative;
+  right: 60px;
 }
 
 #other-skills-sub-title {
-    font-size: 22px;
-    position: relative;
-    right: 105px;
+  font-size: 22px;
+  position: relative;
+  right: 105px;
 }
 
 #education-sub-title {
-    font-size: 22px;
-    position: relative;
-    right: 112px;
+  font-size: 22px;
+  position: relative;
+  right: 112px;
 }
 
 /* Skills - small pill buttons section */
 .technical-skills-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 5px;
 }
 
 .skills {
-    list-style: none;
-    position: relative;
-    right: 63px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  list-style: none;
+  position: relative;
+  right: 63px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .skills li {
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border-radius: 10px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
 }
 
 .skills li:hover {
-    background-color: #89B3B1;
-    transition: 0.25s;
+  background-color: #89b3b1;
+  transition: 0.25s;
 }
 
 .skills.ruby-stack {
-    right: 89px;
+  right: 89px;
 }
 
 .skills.js-stack {
-    right: 16px;
+  right: 16px;
 }
 
 .skills.databases {
-    right: 80px;
-    /* left: 10px; */
+  right: 80px;
+  /* left: 10px; */
 }
 
 .education-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-    padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 5px;
 }
 
 .education {
-    list-style: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .education li {
-    position: relative;
-    right: 10px;
-    padding: 3px;
+  position: relative;
+  right: 10px;
+  padding: 3px;
 }
 
 .education a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: bold;
-    font-style: italic;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .education a:hover {
-    color: #89B3B1;
+  color: #89b3b1;
 }
 
 /* Projects page styling */
 .portfolio-section {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .portfolio-box {
-    max-width: 310px;
-    padding-bottom: 15px;
+  max-width: 380px;
+  padding-bottom: 15px;
 }
 
 .portfolio-item-heading {
-    font-size: 20px;
-    padding-bottom: 5px;
+  font-size: 20px;
+  padding-bottom: 5px;
 }
 
 .portfolio-box img {
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
-    margin-bottom: 8px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 8px;
+  width: 380px;
+  height: auto;
 }
 
 .portfolio-box p {
-    font-size: 15px;
+  font-size: 15px;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
-
 
 /* .portfolio-box img:active {
     position: relative;
@@ -261,201 +263,199 @@ h3 {
 
 /* Placeholder styling */
 .placeholder-button {
-    background-color: rgb(255, 255, 255, 0.7);
-    border-radius: 10px;
-    display: inline-block;
-    cursor: pointer;
-    color: black;
-    font-size: 40px;
-    padding: 60px 120px;
-    text-shadow: 0px 1px 0px grey;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
-    margin-bottom: 8px;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 40px;
+  padding: 60px 120px;
+  text-shadow: 0px 1px 0px grey;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 8px;
 }
 
 .placeholder-button:hover {
-    transition: 0.1s;
-    color: #89B3B1;
+  transition: 0.1s;
+  color: #89b3b1;
 }
 
 .placeholder-button:active {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 2px;
 }
 
-
 .view-project-button-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 2px;
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 .view-github-button {
-    background-color: #242A2E;
-    border-radius: 15px;
-    border: 1px solid #242A2E;
-    cursor: pointer;
-    color: rgb(255, 255, 255, 0.9);
-    font-size: 17px;
-    padding: 12px 32px;
+  background-color: #242a2e;
+  border-radius: 15px;
+  border: 1px solid #242a2e;
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 17px;
+  padding: 12px 32px;
 
-    width: 308px;
-    height: 45px;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  width: 380px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
 }
 
 .view-project-button {
-    background-color: #2DA54E;
-    border-radius: 15px;
-    border: 1px solid #2DA54E;
-    cursor: pointer;
-    color: rgb(255, 255, 255, 0.9);
-    font-size: 17px;
-    padding: 12px 32px;
+  background-color: #2da54e;
+  border-radius: 15px;
+  border: 1px solid #2da54e;
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 17px;
+  padding: 12px 32px;
 
-    width: 308px;
-    height: 45px;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  width: 380px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
 }
 
 .view-project-button:active {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 2px;
 }
 
 /* Homepage social link styling */
 .social-links-section {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 220px;
 }
 
 .social-logo-box {
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #F4F3DF;
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f4f3df;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .social-logo-box:hover {
-    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-    transform: scale(1.025);
-    transition: 0.25s;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  transform: scale(1.025);
+  transition: 0.25s;
 }
 
 .social-logo-box:active {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 2px;
 }
 
 /* Nav bar styling */
 .navbar {
-    font-size: 18px;
-    background-color: #E7E6D2;
-    border: 1px solid #E7E6D2;
-    padding-bottom: 10px;
+  font-size: 18px;
+  background-color: #e7e6d2;
+  border: 1px solid #e7e6d2;
+  padding-bottom: 10px;
 }
 
 .main-nav {
-    list-style-type: none;
-    display: none;
+  list-style-type: none;
+  display: none;
 }
 
 .nav-links,
 .logo {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .main-nav li {
-    text-align: center;
-    margin: 15px auto;
+  text-align: center;
+  margin: 15px auto;
 }
 
 .logo {
-    display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 20px;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .navbar-toggle {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 24px;
 }
 
 .logo:hover,
 .nav-links:hover,
 .fa-bars:hover {
-    color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 #chkToggle {
-    display: none;
+  display: none;
 }
 
-#chkToggle:checked+ul.main-nav {
-    display: block;
+#chkToggle:checked + ul.main-nav {
+  display: block;
 }
 
 /* Adding more responsiveness to styling of projects page - switches to single column display*/
 @media screen and (max-width: 960px) {
-    .portfolio-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
+  .portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Modifies navbar for desktop to be horizontal */
 @media screen and (min-width: 768px) {
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 70px;
-        align-items: center;
-    }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
 
-    #chkToggle:checked+ul.main-nav {
-        display: flex;
-    }
+  #chkToggle:checked + ul.main-nav {
+    display: flex;
+  }
 
-    .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 
-    .main-nav li {
-        margin: 0;
-    }
+  .main-nav li {
+    margin: 0;
+  }
 
-    .nav-links {
-        margin-left: 40px;
-    }
+  .nav-links {
+    margin-left: 40px;
+  }
 
-    .logo {
-        margin-top: 0;
-    }
+  .logo {
+    margin-top: 0;
+  }
 
-    .navbar-toggle {
-        display: none;
-    }
+  .navbar-toggle {
+    display: none;
+  }
 
-    .logo:hover,
-    .nav-links:hover {
-        color: rgba(0, 0, 0, 1);
-    }
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(0, 0, 0, 1);
+  }
 }
