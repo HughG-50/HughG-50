@@ -340,11 +340,11 @@ h3 {
   border-radius: 20px;
   padding: 10px;
   background-color: #f4f3df;
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .social-logo-box:hover {
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.5);
   transform: scale(1.025);
   transition: 0.25s;
 }
